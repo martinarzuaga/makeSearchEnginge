@@ -1,0 +1,62 @@
+:root {
+    /* Font Style */
+    --font-small: 1.3rem;
+    --font-regular: 1.6rem;
+    --font-arial: arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: var(--font-small);
+    font-family: var(--font-arial);
+}
+
+.header {
+    display: flex;
+    height: 7vh;
+    width: 100vw;
+    /* background-color: aqua; */
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.6rem;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.nav-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.gb_We {
+    height: 30px;
+    color: #5f6368;
+}
+
+.profile-button {
+    background-color: #ebebeb;
+    width: 40px;
+    border-radius: 50%;
+    overflow-x: hidden;
+}
+
+.profile-button img {
+    width: 100%;
+}
